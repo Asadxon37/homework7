@@ -8,6 +8,7 @@ void days2years(int &days, int &years) {
 double func(double *x,double *y) {
     double *y=(11*(*x)*(*x)*(*x))/3.0+5;
     return *y;
+
 }
 
 
