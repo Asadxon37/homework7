@@ -37,5 +37,6 @@ int presses(int *x) {
       count+=1+2+3+4;}
     for(int i=1;i<length;++i){
       count+=i;
+
 }
 return count;}
