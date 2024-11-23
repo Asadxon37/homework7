@@ -25,6 +25,7 @@ double probability(int *y,int *w) {
      if(*y>*w){prob=(7-(*y))/6;}
      if(*y<*w){prob=(7-(*y))/6;}
      return prob;
+
   }
 }
 
