@@ -27,6 +27,7 @@ double probability(int *y,int *w) {
   }
 }
 
+
 // Problem 5
 int presses(int *x) {
     string num=to_string(*x);
