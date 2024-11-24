@@ -22,10 +22,10 @@ double probability(int *y,int *w) {
    double prob;
    while(*y>0 && *y<7 && *w>0 && *w<7){
      if(*y>*w){prob=(7-(*y))/6;}
-     if(*y<*w){prob=(7-(*y))/6;}
-     return prob;
+     if(*y<*w){prob=(7-(*w))/6;}
 
-  }
+
+  } return prob;
 }
 
 // Problem 5
@@ -36,7 +36,7 @@ int presses(int *x) {
     int count=0;
     for(int i=1;i<digit;++i){
       count+=1+2+3+4;}
-    for(int i=1;i<length;++i){
+    for(int i=1;i<=length;++i){
       count+=i;
 
 }
