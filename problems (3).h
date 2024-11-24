@@ -6,7 +6,7 @@ void days2years(int &days, int &years) {
 }
 // Problem 2
 double func(double *x,double *y) {
-    double *y=(11*(*x)*(*x)*(*x))/3.0+5;
+    *y=(11*(*x)*(*x)*(*x))/3.0+5;
     return *y;
 }
 
@@ -20,7 +20,7 @@ int minsNewYear(int *hour, int *min) {
 // Problem 4
 double probability(int *y,int *w) {
    double prob;
-   while(y>0&&y<7&&w>0&&w<7){
+   while(*y>0 && *y<7 && *w>0 && *w<7){
      if(*y>*w){prob=(7-(*y))/6;}
      if(*y<*w){prob=(7-(*y))/6;}
      return prob;
